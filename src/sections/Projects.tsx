@@ -1,4 +1,4 @@
-import { ArrowUpRight, Download, Github } from 'lucide-react';
+import { ArrowUpRight, Github } from 'lucide-react';
 import { AnimatedBorderButton } from '../components/AnimatedBorderButton';
 
 const projects = [
