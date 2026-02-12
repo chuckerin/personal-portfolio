@@ -1,4 +1,4 @@
-import { ArrowUpRight, Github } from 'lucide-react';
+import { ArrowUpRight, Github, ChevronDown } from 'lucide-react';
 import { AnimatedBorderButton } from '../components/AnimatedBorderButton';
 
 const projects = [
@@ -42,7 +42,7 @@ const projects = [
 
 export const Projects = () => {
   return (
-    <section id='about' className='py-32 relative overflow-hidden'>
+    <section id='projects' className='py-32 relative overflow-hidden'>
       {/*  BG Glows */}
       <div className='absolute top-1/4 right-0 w-96 h-96 bg-primary/5 rounded-full blur-3xl' />
       <div className='absolute bottom-1/4 left-0 w-64 h-64 bg-highlight/5 rounded-full blur-3xl' />
@@ -133,11 +133,27 @@ export const Projects = () => {
         </div>
         {/* View All CTA */}
         <div className='text-center mt-12 animate-fade-in animation-delay-500'>
-          <AnimatedBorderButton>
+          <AnimatedBorderButton
+            onClick={() =>
+              window.open('https://github.com/chuckerin/', '_blank')
+            }
+          >
             View All
             <ArrowUpRight className='w-5 h-5' />
           </AnimatedBorderButton>
         </div>
+      </div>
+      <div
+        className='absolute bottom-8 left-1/2 -translate-x-1/2 
+        animate-fade-in animation-delay-800'
+      >
+        <a
+          href='#experience'
+          className='flex flex-col items-center gap-2 text-muted-foreground hover:text-primary transition-colors group'
+        >
+          <span className='text-xs uppercase tracking-wider'>Scroll</span>
+          <ChevronDown className='w-6 h-6 animate-bounce' />
+        </a>
       </div>
     </section>
   );

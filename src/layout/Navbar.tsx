@@ -50,7 +50,9 @@ export const Navbar = () => {
 
         {/* CTA Button */}
         <div className='hidden md:block'>
-          <Button>Contact Me</Button>
+          <Button onClick={() => (window.location.href = '#contact')}>
+            Contact Me
+          </Button>
         </div>
 
         {/* Mobile Menu Button */}

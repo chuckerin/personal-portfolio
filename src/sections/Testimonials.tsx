@@ -1,4 +1,4 @@
-import { ChevronLeft, ChevronRight, Quote } from 'lucide-react';
+import { ChevronDown, ChevronLeft, ChevronRight, Quote } from 'lucide-react';
 import { useState } from 'react';
 
 const testimonials = [
@@ -182,6 +182,18 @@ export const Testimonials = () => {
             </div>
           </div>
         </div>
+      </div>
+      <div
+        className='absolute bottom-8 left-1/2 -translate-x-1/2 
+        animate-fade-in animation-delay-800'
+      >
+        <a
+          href='#contact'
+          className='flex flex-col items-center gap-2 text-muted-foreground hover:text-primary transition-colors group'
+        >
+          <span className='text-xs uppercase tracking-wider'>Scroll</span>
+          <ChevronDown className='w-6 h-6 animate-bounce' />
+        </a>
       </div>
     </section>
   );
