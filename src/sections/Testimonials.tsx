@@ -72,12 +72,12 @@ export const Testimonials = () => {
   const [activeIdx, setActiveIdx] = useState(0);
 
   const next = () => {
-    console.log(activeIdx);
+    // console.log(activeIdx);
     setActiveIdx((prev) => (prev + 1) % testimonials.length); //very cool way to reset to zero when you get to the last element in the array
   };
 
   const previous = () => {
-    console.log(activeIdx);
+    // console.log(activeIdx);
     setActiveIdx(
       (prev) => (prev - 1 + testimonials.length) % testimonials.length,
     );
