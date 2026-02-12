@@ -76,8 +76,13 @@ export const Navbar = () => {
                 {link.label}
               </a>
             ))}
-            {/* Need to a an onClickEvent, onClick={() => setIsMobileMenuOpen(false)} */}
-            <Button onClick={() => {}} size='sm'>
+            <Button
+              onClick={() => {
+                window.location.href = '#contact';
+                setIsMobileMenuOpen(false);
+              }}
+              size='sm'
+            >
               Contact Me
             </Button>
           </div>
