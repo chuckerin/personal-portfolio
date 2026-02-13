@@ -1,17 +1,19 @@
-import { Github, Linkedin, Twitter } from 'lucide-react';
+// import { Github, Linkedin } from 'lucide-react';
+import { socialLinks } from '../utils/links';
+import { navLinks as footerLinks } from '../utils/links';
 
-const socialLinks = [
-  { icon: Github, href: '#', label: 'GitHub' },
-  { icon: Linkedin, href: '#', label: 'LinkedIn' },
-  { icon: Twitter, href: '#', label: 'Twitter' },
-];
+// const socialLinks = [
+//   { icon: Github, href: '#', label: 'GitHub' },
+//   { icon: Linkedin, href: '#', label: 'LinkedIn' },
+// ];
 
-const footerLinks = [
-  { href: '#about', label: 'About' },
-  { href: '#projects', label: 'Projects' },
-  { href: '#experience', label: 'Experience' },
-  { href: '#contact', label: 'Contact' },
-];
+// const footerLinks = [
+//   { href: '#top', label: 'Top' },
+//   { href: '#about', label: 'About' },
+//   { href: '#projects', label: 'Projects' },
+//   { href: '#experience', label: 'Experience' },
+//   { href: '#contact', label: 'Contact' },
+// ];
 
 export const Footer = () => {
   const currentYear = new Date().getFullYear();
@@ -50,6 +52,7 @@ export const Footer = () => {
                 key={social.label}
                 href={social.href}
                 aria-label={social.label}
+                target='_blank'
                 className='p-2 rounded-full glass hover:bg-primary/10 hover:text-primary transition-all'
               >
                 <social.icon className='w-5 h-5' />

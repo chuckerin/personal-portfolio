@@ -1,35 +1,9 @@
-import {
-  Mail,
-  Phone,
-  MapPin,
-  Send,
-  CheckCircle,
-  AlertCircle,
-} from 'lucide-react';
+import { Send, CheckCircle, AlertCircle } from 'lucide-react';
 import { Button } from '../components/Button';
 import { useState } from 'react';
 import emailjs from '@emailjs/browser';
 
-const contactInfo = [
-  {
-    icon: Mail,
-    label: 'Email',
-    value: 'pedro@example.com',
-    href: 'mailto:pedro@example.com',
-  },
-  {
-    icon: Phone,
-    label: 'Phone',
-    value: '+1 (555) 123-4567',
-    href: 'tel:+15551234567',
-  },
-  {
-    icon: MapPin,
-    label: 'Location',
-    value: 'San Francisco, CA',
-    href: '#',
-  },
-];
+import { contactInfo } from '../data/contactInfo';
 
 export const Contact = () => {
   const [formData, setFormData] = useState({
@@ -145,13 +119,13 @@ export const Contact = () => {
               <div>
                 <label
                   htmlFor='email'
-                  // type="email"
                   className='block text-sm font-medium mb-2'
                 >
                   Email
                 </label>
                 <input
                   required
+                  type='email'
                   placeholder='your@email.com'
                   value={formData.email}
                   onChange={(e) =>

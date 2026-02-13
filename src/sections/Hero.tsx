@@ -1,43 +1,21 @@
-import {
-  ArrowRight,
-  ChevronDown,
-  Download,
-  Github,
-  Linkedin,
-} from 'lucide-react';
+import { ArrowRight, ChevronDown, Download } from 'lucide-react';
 import { AnimatedBorderButton } from '../components/AnimatedBorderButton';
 import { Button } from '../components/Button';
 import { generateRandos } from '../utils/randos';
-
-const skills = [
-  'React',
-  'Next.js',
-  'TypeScript',
-  'Node.js',
-  'GraphQL',
-  'PostgreSQL',
-  'MongoDB',
-  'Redis',
-  'Docker',
-  'AWS',
-  'Vercel',
-  'Tailwind CSS',
-  'Prisma',
-  'Jest',
-  'Cypress',
-  'Figma',
-  'Git',
-  'GitHub Actions',
-];
+import { socialLinks } from '../utils/links';
+import { skills } from '../data/skills';
 
 export const Hero = () => {
   const randos = generateRandos();
   const randos2 = generateRandos();
   const randos3 = generateRandos();
   const randos4 = generateRandos();
-  // console.log(randos);
+
   return (
-    <section className='relative min-h-screen flex items-center overflow-hidden'>
+    <section
+      id='top'
+      className='relative min-h-screen flex items-center overflow-hidden'
+    >
       {/* BG */}
       <div className='absolute inset-0'>
         <img
@@ -120,17 +98,11 @@ export const Hero = () => {
                 <span className='text-sm text-muted-foreground'>
                   Follow me:{' '}
                 </span>
-                {[
-                  { icon: Github, href: 'https://github.com/chuckerin/' },
-                  {
-                    icon: Linkedin,
-                    href: 'https://www.linkedin.com/in/chuckerin/',
-                  },
-                  // { icon: Twitter, href: '#' },
-                ].map((social, idx) => (
+                {socialLinks.map((social, idx) => (
                   <a
                     key={idx}
                     href={social.href}
+                    aria-label={social.label}
                     target='_blank'
                     className='p-2 rounded-full glass hover:bg-primary/10 hover:text-primary transition-all duration-300'
                   >
@@ -167,7 +139,7 @@ export const Hero = () => {
                 </div>
 
                 {/* Stats Badge */}
-                <div className='absolute -top-4 -left-4 glass rounded-xl px4 py-3 animate-float animation-delay-500'>
+                <div className='absolute -top-4 -left-4 glass rounded-xl px-4 py-3 animate-float animation-delay-500'>
                   <div className='text-2xl font-bold text-primary'>25+</div>
                   <div className='text-xs text-muted-forground'>Years Exp.</div>
                 </div>
@@ -194,10 +166,9 @@ export const Hero = () => {
           </div>
         </div>
       </div>
-
       <div
         className='absolute bottom-8 left-1/2 -translate-x-1/2 
-        animate-fade-in animation-delay-800'
+        animate-fade-in animation-delay-800 z-10'
       >
         <a
           href='#about'
