@@ -11,7 +11,6 @@ export const Experience = () => {
         className='absolute top-1/2 left-1/4 w-96
         h-96 bg-primary/5 rounded-full blur-3xl -translate-y-1/2'
       />
-
       <div className='container mx-auto px-6 relative z-10'>
         {/* Section Header */}
         <div className='max-w-3xl mb-16'>
@@ -98,7 +97,15 @@ export const Experience = () => {
         </div>
       </div>
       <div
-        className='absolute bottom-8 left-1/2 -translate-x-1/2 
+        className='absolute bottom-14 left-1/2 -translate-x-1/2 
+        animate-fade-in animation-delay-800'
+      >
+        <p className='text-sm text-muted-foreground mb-6 text-center'>
+          Full work history available on request
+        </p>
+      </div>{' '}
+      <div
+        className='absolute bottom-2 left-1/2 -translate-x-1/2 
         animate-fade-in animation-delay-800'
       >
         <a

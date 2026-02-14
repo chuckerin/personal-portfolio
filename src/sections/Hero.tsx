@@ -19,7 +19,7 @@ export const Hero = () => {
       {/* BG */}
       <div className='absolute inset-0'>
         <img
-          src='/personal-portfolio/hero-bg.jpg'
+          src='/hero-bg.jpg'
           alt='Hero background image'
           className='w-full h-full object-cover opacity-40'
         />
@@ -84,9 +84,7 @@ export const Hero = () => {
                   Contact Me <ArrowRight className='w-5 h-5' />
                 </Button>
                 <AnimatedBorderButton
-                  onClick={() =>
-                    (window.location.href = '/personal-portfolio/resume.docx')
-                  }
+                  onClick={() => (window.location.href = '/resume.docx')}
                 >
                   <Download className='w-5 h-5' />
                   Download Resume
@@ -123,7 +121,7 @@ export const Hero = () => {
               />
               <div className='relative glass rounded-3xl p-2 glow-border'>
                 <img
-                  src='/personal-portfolio/hero.png'
+                  src='/hero.png'
                   alt='Chuckerin Black'
                   className='w-full aspect-[4/5] object-cover rounded-2xl'
                 />
