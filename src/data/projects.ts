@@ -35,4 +35,13 @@ export const projects = [
     link: '#',
     github: '#',
   },
+  {
+    title: 'Express Max',
+    description:
+      'This is an Express Web Server framework that demonstrates some of the capability of Express written out in TypeScript.',
+    image: '/projects/project5.png',
+    tags: ['Node.js', 'Express JS', 'Typescript'],
+    link: 'https://github.com/chuckerin/express-max',
+    github: 'https://github.com/chuckerin/express-max',
+  },
 ];

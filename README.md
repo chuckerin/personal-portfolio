@@ -1,3 +1,25 @@
+# Portfolio Project
+
+This is a personal portfolio project highlighting my software development experience over the past 30 years. This was built using this tutorial from Pedro over at PedroTech.
+
+[Youtube Tutorial](https://www.youtube.com/watch?v=cIYdiRDFWQw&t=389s) - From Pedro over at PedroTech  
+[Github Repository](https://github.com/machadop1407/react-tailwind-personal-portfolio) - react-tailwind-personal-portfolio
+
+The tutorial uses Javascript as the programming languagel due to broad appeal. However, I switched my project up to use Typescript. It's been my bread an butter for the past 7 years. I've been looking for an excuse to learn Tailwind, and this seemed like a good enough reason.
+
+## Repository and Deployed site
+
+[Github Repository](https://github.com/chuckerin/personal-portfolio) - personal-portfolio  
+[Personal Portfolio](https://personal-portfolio-plum-theta-18.vercel.app) - This sits out on vercel and automatically updates and deploys whenever I push code to the repository.
+
+## Project tools
+
+- [Typscript](https://www.typescriptlang.org/) - Primary language
+- [React](https://react.dev/) - UI Library
+- [Tailwind CSS](https://tailwindcss.com/) - CSS Framework
+- [Lucide] - Open-source icon library
+- [Vite](https://vite.dev/) - Build tool
+
 # React + TypeScript + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
@@ -40,15 +62,15 @@ export default defineConfig([
       // other options...
     },
   },
-])
+]);
 ```
 
 You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
 
 ```js
 // eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+import reactX from 'eslint-plugin-react-x';
+import reactDom from 'eslint-plugin-react-dom';
 
 export default defineConfig([
   globalIgnores(['dist']),
@@ -69,5 +91,5 @@ export default defineConfig([
       // other options...
     },
   },
-])
+]);
 ```
