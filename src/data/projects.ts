@@ -1,40 +1,40 @@
 export const projects = [
-  {
-    title: 'Fintech Dashboard',
-    description:
-      'A comprehensive financial analytics platform with real-time data visualization, portfolio management, and AI-powered insights.',
-    image: '/projects/project1.png',
-    tags: ['React', 'Typescript', 'NodeJS'],
-    link: '#',
-    github: '#',
-  },
-  {
-    title: 'E-Commerce Platform',
-    description:
-      'A full-featured e-commerce solution with inventory management, payment processing, and analytics dashboard.',
-    image: '/projects/project2.png',
-    tags: ['Next.js', 'Stripe', 'PostgreSQL', 'Tailwind'],
-    link: '#',
-    github: '#',
-  },
-  {
-    title: 'AI Writing Assistant',
-    description:
-      'An intelligent writing tool powered by GPT-4, helping users create better content faster.',
-    image: '/projects/project3.png',
-    tags: ['React', 'OpenAI', 'Python', 'FastAPI'],
-    link: '#',
-    github: '#',
-  },
-  {
-    title: 'Project Management Tool',
-    description:
-      'A collaborative workspace for teams with real-time updates, task tracking, and integrations.',
-    image: '/projects/project4.png',
-    tags: ['Next.js', 'Socket.io', 'MongoDB', 'Redis'],
-    link: '#',
-    github: '#',
-  },
+  // {
+  //   title: 'Fintech Dashboard',
+  //   description:
+  //     'A comprehensive financial analytics platform with real-time data visualization, portfolio management, and AI-powered insights.',
+  //   image: '/projects/project1.png',
+  //   tags: ['React', 'Typescript', 'NodeJS'],
+  //   link: '#',
+  //   github: '#',
+  // },
+  // {
+  //   title: 'E-Commerce Platform',
+  //   description:
+  //     'A full-featured e-commerce solution with inventory management, payment processing, and analytics dashboard.',
+  //   image: '/projects/project2.png',
+  //   tags: ['Next.js', 'Stripe', 'PostgreSQL', 'Tailwind'],
+  //   link: '#',
+  //   github: '#',
+  // },
+  // {
+  //   title: 'AI Writing Assistant',
+  //   description:
+  //     'An intelligent writing tool powered by GPT-4, helping users create better content faster.',
+  //   image: '/projects/project3.png',
+  //   tags: ['React', 'OpenAI', 'Python', 'FastAPI'],
+  //   link: '#',
+  //   github: '#',
+  // },
+  // {
+  //   title: 'Project Management Tool',
+  //   description:
+  //     'A collaborative workspace for teams with real-time updates, task tracking, and integrations.',
+  //   image: '/projects/project4.png',
+  //   tags: ['Next.js', 'Socket.io', 'MongoDB', 'Redis'],
+  //   link: '#',
+  //   github: '#',
+  // },
   {
     title: 'Express Max',
     description:
@@ -43,5 +43,14 @@ export const projects = [
     tags: ['Node.js', 'Express JS', 'Typescript'],
     link: 'https://github.com/chuckerin/express-max',
     github: 'https://github.com/chuckerin/express-max',
+  },
+  {
+    title: 'Personal Portfolio',
+    description:
+      'This is a personal portfolio project highlighting my software development experience over the past 30 years. This was built using this tutorial from Pedro over at PedroTech.',
+    image: '/projects/project6.png',
+    tags: ['React', 'Typescript', 'Tailwind CSS', 'Lucide', 'Vite'],
+    link: 'https://personal-portfolio-plum-theta-18.vercel.app/',
+    github: 'https://github.com/chuckerin/personal-portfolio',
   },
 ];

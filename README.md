@@ -17,7 +17,7 @@ The tutorial uses Javascript as the programming languagel due to broad appeal. H
 - [Typscript](https://www.typescriptlang.org/) - Primary language
 - [React](https://react.dev/) - UI Library
 - [Tailwind CSS](https://tailwindcss.com/) - CSS Framework
-- [Lucide] - Open-source icon library
+- [Lucide](https://lucide.dev/) - Open-source icon library
 - [Vite](https://vite.dev/) - Build tool
 
 # React + TypeScript + Vite
