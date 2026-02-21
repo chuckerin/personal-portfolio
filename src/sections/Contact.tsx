@@ -112,7 +112,8 @@ export const Contact = () => {
                   onChange={(e) =>
                     setFormData({ ...formData, name: e.target.value })
                   }
-                  className='w-full px-4 py-3 bg-surface rounded-xl border border-border focus:border-primary focus:ring-1 focus:ring-primary outline-none transition-all'
+                  className='w-full px-4 py-3 bg-surface rounded-xl border border-border focus:border-primary 
+                    focus:ring-1 focus:ring-primary outline-none transition-all'
                 />
               </div>
 
@@ -131,7 +132,8 @@ export const Contact = () => {
                   onChange={(e) =>
                     setFormData({ ...formData, email: e.target.value })
                   }
-                  className='w-full px-4 py-3 bg-surface rounded-xl border border-border focus:border-primary focus:ring-1 focus:ring-primary outline-none transition-all'
+                  className='w-full px-4 py-3 bg-surface rounded-xl border border-border focus:border-primary 
+                    focus:ring-1 focus:ring-primary outline-none transition-all'
                 />
               </div>
 
@@ -150,7 +152,8 @@ export const Contact = () => {
                     setFormData({ ...formData, message: e.target.value })
                   }
                   placeholder='Your message...'
-                  className='w-full px-4 py-3 bg-surface rounded-xl border border-border focus:border-primary focus:ring-1 focus:ring-primary outline-none transition-all resize-none'
+                  className='w-full px-4 py-3 bg-surface rounded-xl border border-border focus:border-primary 
+                    focus:ring-1 focus:ring-primary outline-none transition-all resize-none'
                 />
               </div>
 
@@ -180,9 +183,9 @@ export const Contact = () => {
                      }`}
                 >
                   {submitStatus.type === 'success' ? (
-                    <CheckCircle className='w-5 h-5 flex-shrink-0' />
+                    <CheckCircle className='w-5 h-5 shrink-0' />
                   ) : (
-                    <AlertCircle className='w-5 h-5 flex-shrink-0' />
+                    <AlertCircle className='w-5 h-5 shrink-0' />
                   )}
                   <p className='text-sm'>{submitStatus.message}</p>
                 </div>
@@ -203,7 +206,10 @@ export const Contact = () => {
                     href={item.href}
                     className='flex items-center gap-4 p-4 rounded-xl hover:bg-surface transition-colors group'
                   >
-                    <div className='w-12 h-12 rounded-xl bg-primary/10 flex items-center justify-center group-hover:bg-primary/20 transition-colors'>
+                    <div
+                      className='w-12 h-12 rounded-xl bg-primary/10 flex items-center justify-center 
+                      group-hover:bg-primary/20 transition-colors'
+                    >
                       <item.icon className='w-5 h-5 text-primary' />
                     </div>
                     <div>

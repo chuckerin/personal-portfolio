@@ -23,13 +23,12 @@ export const Hero = () => {
           alt='Hero background image'
           className='w-full h-full object-cover opacity-40'
         />
-        <div className='absolute inset-0 bg-gradient-to-b from-background/20 via-background/80 to-background' />
+        <div className='absolute inset-0 bg-linear-to-b from-background/20 via-background/80 to-background' />
       </div>
 
       {/* Green Dots */}
       <div className='absolute inset-0 overflow-hidden pointer-events-none'>
         {randos.map((rando, i) => {
-          // console.log(rando * 100);
           return (
             <div
               className='absolute w-1.5 h-1.5 rounded-full opacity-60'
@@ -115,7 +114,7 @@ export const Hero = () => {
             <div className='relative max-w-md mx-auto'>
               <div
                 className='absolute inset-0 
-                  rounded-3xl bg-gradient-to-br 
+                  rounded-3xl bg-linear-to-br 
                   from-primary/30 via-transparent 
                   to-primary/10 blur-2xl animate-pulse'
               />
@@ -123,7 +122,7 @@ export const Hero = () => {
                 <img
                   src='/hero.png'
                   alt='Chuckerin Black'
-                  className='w-full aspect-[4/5] object-cover rounded-2xl'
+                  className='w-full aspect-4/5 object-cover rounded-2xl'
                 />
 
                 {/* Floating Badge */}
@@ -138,7 +137,7 @@ export const Hero = () => {
 
                 {/* Stats Badge */}
                 <div className='absolute -top-4 -left-4 glass rounded-xl px-4 py-3 animate-float animation-delay-500'>
-                  <div className='text-2xl font-bold text-primary'>25+</div>
+                  <div className='text-2xl font-bold text-primary'>29+</div>
                   <div className='text-xs text-muted-forground'>Years Exp.</div>
                 </div>
               </div>

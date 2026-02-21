@@ -2,19 +2,6 @@
 import { socialLinks } from '../utils/links';
 import { navLinks as footerLinks } from '../utils/links';
 
-// const socialLinks = [
-//   { icon: Github, href: '#', label: 'GitHub' },
-//   { icon: Linkedin, href: '#', label: 'LinkedIn' },
-// ];
-
-// const footerLinks = [
-//   { href: '#top', label: 'Top' },
-//   { href: '#about', label: 'About' },
-//   { href: '#projects', label: 'Projects' },
-//   { href: '#experience', label: 'Experience' },
-//   { href: '#contact', label: 'Contact' },
-// ];
-
 export const Footer = () => {
   const currentYear = new Date().getFullYear();
 

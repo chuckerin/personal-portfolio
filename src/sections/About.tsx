@@ -24,9 +24,9 @@ export const About = () => {
               <p>
                 I'm a passionate software engineer with over 29 years of
                 experience crafting digital products that make a difference. My
-                journey started as a Windows application developer for the US
-                Air Force, and it has evolved into a deep expertise in modern
-                full stack technologies.
+                journey started as a Windows application developer for the
+                United States Air Force, and it has evolved into a deep
+                expertise in modern full stack technologies.
               </p>
               <p>
                 I specialize in React & TypeScript for the front end, Java &
@@ -36,8 +36,8 @@ export const About = () => {
               </p>
               <p>
                 When I'm not coding, you'll find me exploring new technologies,
-                contributing to open-source projects, or sharing knowledge with
-                the developer community.
+                like Express JS, or sharing knowledge with the developer
+                community.
               </p>
             </div>
             <div className='glass rounded-2xl p6 glow-border animate-fade-in animation-delay-300'>
