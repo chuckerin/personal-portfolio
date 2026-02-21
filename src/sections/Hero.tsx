@@ -2,7 +2,7 @@ import { ArrowRight, ChevronDown, Download } from 'lucide-react';
 import { AnimatedBorderButton } from '../components/AnimatedBorderButton';
 import { Button } from '../components/Button';
 import { generateRandos } from '../utils/randos';
-import { socialLinks } from '../utils/links';
+import { socialLinks } from '../data/links';
 import { skills } from '../data/skills';
 
 export const Hero = () => {
@@ -13,7 +13,7 @@ export const Hero = () => {
 
   return (
     <section
-      id='top'
+      id='home'
       className='relative min-h-screen flex items-center overflow-hidden'
     >
       {/* BG */}

@@ -1,6 +1,6 @@
 // import { Github, Linkedin } from 'lucide-react';
-import { socialLinks } from '../utils/links';
-import { navLinks as footerLinks } from '../utils/links';
+import { socialLinks } from '../data/links';
+import { navLinks as footerLinks } from '../data/links';
 
 export const Footer = () => {
   const currentYear = new Date().getFullYear();
