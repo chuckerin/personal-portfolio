@@ -1,5 +1,6 @@
-import { ChevronDown } from 'lucide-react';
+import { ChevronDown, Download } from 'lucide-react';
 import { experiences } from '../data/experiences';
+import { AnimatedBorderButton } from '../components/AnimatedBorderButton';
 
 const sides = ['md:pr-16 md:text-right', 'md:col-start-2 md:pl-16'];
 const justifySides = ['md:justify-end', ''];
@@ -31,13 +32,12 @@ export const Experience = () => {
               speaks volumes.
             </span>
           </h2>
-
           <p
             className='text-muted-foreground
            animate-fade-in animation-delay-200'
           >
-            A timeline of my professional growth, from curious beginner to
-            senior engineer leading teams and building products at scale.
+            A snapshot timeline of my professional growth, from curious beginner
+            to senior engineer leading teams and building products at scale.
           </p>
         </div>
 
@@ -89,7 +89,10 @@ export const Experience = () => {
                       {exp.technologies.map((tech, techIdx) => (
                         <span
                           key={techIdx}
-                          className='px-3 py-1 bg-surface text-xs rounded-full text-muted-foreground'
+                          // className='px-3 py-1 bg-surface text-xs rounded-full text-muted-foreground'
+                          className='px-3 py-1 rounded-full bg-surface text-xs font-medium border 
+                      border-border/50 text-muted-foreground hover:border-primary/50 
+                      hover:text-primary transition-all duration-300'
                         >
                           {tech}
                         </span>
@@ -102,14 +105,21 @@ export const Experience = () => {
           </div>
         </div>
       </div>
-      <div
-        className='absolute bottom-14 left-1/2 -translate-x-1/2 
-        animate-fade-in animation-delay-800'
-      >
-        <p className='text-sm text-muted-foreground mb-6 text-center'>
-          Full work history available on request
-        </p>
-      </div>{' '}
+      <div className='text-center mx-auto max-w-3xl mb-16 mt-16'>
+        <h2 className='text-4xl md:5xl font-bold mt-4 mb-6 animate-fade-in animation-delay-100 text-secondary-foreground'>
+          Full work history
+          <span className='font-serif italic font-normal text-white'>
+            {' '}
+            available on resume.
+          </span>
+        </h2>
+        <AnimatedBorderButton
+          onClick={() => (window.location.href = '/resume.docx')}
+        >
+          <Download className='w-5 h-5' />
+          Download Resume
+        </AnimatedBorderButton>
+      </div>
       <div
         className='absolute bottom-2 left-1/2 -translate-x-1/2 
         animate-fade-in animation-delay-800'

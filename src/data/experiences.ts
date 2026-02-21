@@ -4,7 +4,7 @@ export const experiences = [
     role: 'Lead Software Developer',
     company: 'SuprTEK (Superlative Technologies)',
     description:
-      'Software development tech lead on s scrum team for the DMR (Dynamic Mission Replanning) and CAMPS (Consolidated Air Mobility Planning System) systems.  Implemented a date/time range feature into the DMR mapping system that allowed users to search for mission resources given a specific date/time range.  Switched to CAMPS reengineering effort after SuprTEK successfully won the contract. The focus was initially view and edit screens for SAAM and AR Requests efforts, but was switched to the mapping capabilities after the success of the first effort.  After implementing mapping capabilities, was moved back to DMR to implement new RESTful services in an effort to utilize a new data source.  Finally, was moved back to Cargo to complete the file import process for creating new Missions.',
+      'Software development tech lead on a scrum team for the DMR (Dynamic Mission Replanning) and CAMPS (Consolidated Air Mobility Planning System) systems.  Implemented a date/time range feature into the DMR mapping system that allowed users to search for mission resources given a specific date/time range.  Switched to CAMPS reengineering effort after SuprTEK successfully won the contract. The focus was initially view and edit screens for SAAM and AR Requests efforts, but was switched to the mapping capabilities after the success of the first effort.  After implementing mapping capabilities, was moved back to DMR to implement new RESTful services in an effort to utilize a new data source.  Finally, was moved back to Cargo to complete the file import process for creating new Missions.',
     technologies: [
       'Visual Studio Code',
       'TypeScript',
@@ -26,6 +26,7 @@ export const experiences = [
       'Jasmine',
       'Cypress',
       'JUnit',
+      'Kubernetes',
       'Docusaurus',
       'CollabNet',
       'Jenkins',

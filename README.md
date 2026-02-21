@@ -19,6 +19,7 @@ The tutorial uses Javascript as the programming languagel due to broad appeal. H
 - [Tailwind CSS](https://tailwindcss.com/) - CSS Framework
 - [Lucide](https://lucide.dev/) - Open-source icon library
 - [Vite](https://vite.dev/) - Build tool
+- [EmailJS](https://www.emailjs.com/) - Sending out emails
 
 # React + TypeScript + Vite
 

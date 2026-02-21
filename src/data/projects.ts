@@ -11,10 +11,18 @@ export const projects = [
   {
     title: 'Personal Portfolio',
     description:
-      'This is a personal portfolio project highlighting my software development experience over the past 30 years. This was built using this tutorial from Pedro over at PedroTech.',
+      'This is a personal portfolio project highlighting my software development experience over the past 30 years. This was built using a tutorial from Pedro over at PedroTech.  Link to the tutorial is available in the GitHub repository.',
     image: '/projects/project6.png',
-    tags: ['React', 'Typescript', 'Tailwind CSS', 'Lucide', 'Vite'],
+    tags: [
+      'React',
+      'Typescript',
+      'Tailwind CSS',
+      'Lucide',
+      'Vite',
+      'EmailJS',
+      'Vercel',
+    ],
     link: 'https://personal-portfolio-plum-theta-18.vercel.app/',
-    github: 'https://github.com/chuckerin/personal-portfolio',
+    github: 'https://personal-portfolio-plum-theta-18.vercel.app/',
   },
 ];

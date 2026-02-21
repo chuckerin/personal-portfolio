@@ -35,7 +35,7 @@ export const Projects = () => {
               style={{ animationDelay: `${(idx + 1) * 100}ms` }}
             >
               {/* Image */}
-              <div className='relative overflow-hiddn aspect-video'>
+              <div className='relative overflow-hidden aspect-video'>
                 <img
                   src={project.image}
                   alt={project.title}

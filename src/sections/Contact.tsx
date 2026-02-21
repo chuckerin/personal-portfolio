@@ -107,6 +107,7 @@ export const Contact = () => {
                   id='name'
                   type='text'
                   required
+                  autoComplete='name'
                   placeholder='Your name...'
                   value={formData.name}
                   onChange={(e) =>
@@ -126,7 +127,9 @@ export const Contact = () => {
                 </label>
                 <input
                   required
+                  id='email'
                   type='email'
+                  autoComplete='email'
                   placeholder='your@email.com'
                   value={formData.email}
                   onChange={(e) =>
@@ -145,8 +148,10 @@ export const Contact = () => {
                   Message
                 </label>
                 <textarea
+                  id='message'
                   rows={5}
                   required
+                  autoComplete='off'
                   value={formData.message}
                   onChange={(e) =>
                     setFormData({ ...formData, message: e.target.value })
