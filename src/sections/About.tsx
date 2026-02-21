@@ -44,7 +44,7 @@ export const About = () => {
               <p className='text-lg font-medium italic text-foreground'>
                 "My mission is to create digital experiences that are not just
                 functional, but truly delightful - products that users are
-                excited to use and are easy for developers to maintain"
+                excited to use and easy for developers to maintain"
               </p>
             </div>
           </div>
