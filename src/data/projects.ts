@@ -25,4 +25,22 @@ export const projects = [
     link: 'https://personal-portfolio-plum-theta-18.vercel.app/',
     github: 'https://personal-portfolio-plum-theta-18.vercel.app/',
   },
+  {
+    title: 'CurrentWeather',
+    description:
+      'This was a fun take home assignment from a potential employer. This is a front end application for looking up current weather using the OpenWeather API.',
+    image: '/projects/project7.png',
+    tags: [
+      'React',
+      'Typescript',
+      'PrimeReact',
+      'PrimeIcons',
+      'Vite',
+      'Titest',
+      'GitHub Pages',
+      `OpenWeather API`,
+    ],
+    link: 'https://chuckerin.github.io/copeland-weather3/',
+    github: 'https://github.com/chuckerin/copeland-weather3',
+  },
 ];
