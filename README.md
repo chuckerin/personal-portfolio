@@ -10,7 +10,7 @@ The tutorial uses Javascript as the programming languagel due to broad appeal. H
 ## Repository and Deployed site
 
 [Github Repository](https://github.com/chuckerin/personal-portfolio) - personal-portfolio  
-[Personal Portfolio](https://personal-portfolio-plum-theta-18.vercel.app) - This sits out on vercel and automatically updates and deploys whenever I push code to the repository.
+[Personal Portfolio](https://chuckerin.github.io/personal-portfolio/) - This sits out on GitHub Pages and automatically updates and deploys whenever I push code to the repository.
 
 ## Project tools
 
